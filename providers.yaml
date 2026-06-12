@@ -1,0 +1,27 @@
+# Prices are USD per 1M tokens, checked against public listings 2026-06-11.
+# cached_discount: fraction off the input price for cached input tokens.
+
+parasail:
+  base_url: https://api.parasail.io/v1
+  model: Qwen/Qwen3.5-397B-A17B # fp8, 262k ctx
+  input_per_m: 0.50
+  output_per_m: 3.60
+  cached_discount: 0.30
+  api_key_env: PARASAIL_API_KEY
+
+# same endpoint, different models, for cross-model runs of the same workload
+parasail-kimi-k26:
+  base_url: https://api.parasail.io/v1
+  model: moonshotai/Kimi-K2.6 # int4, 262k ctx
+  input_per_m: 0.75
+  output_per_m: 3.50
+  cached_discount: 0.30
+  api_key_env: PARASAIL_API_KEY
+
+parasail-qwen35-35b:
+  base_url: https://api.parasail.io/v1
+  model: Qwen/Qwen3.5-35B-A3B # fp8, 262k ctx
+  input_per_m: 0.15
+  output_per_m: 1.00
+  cached_discount: 0.30
+  api_key_env: PARASAIL_API_KEY

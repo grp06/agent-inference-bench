@@ -1,0 +1,8 @@
+{"messages": [{"role": "user", "content": "Explain what a KV cache is in a transformer model, in two short paragraphs."}], "max_tokens": 256}
+{"messages": [{"role": "user", "content": "Write a Python function that merges two sorted lists into one sorted list."}], "max_tokens": 256}
+{"messages": [{"role": "user", "content": "Summarize the tradeoffs between batch and streaming inference for production workloads."}], "max_tokens": 256}
+{"messages": [{"role": "user", "content": "What is the difference between time to first token and tokens per second, and why do both matter?"}], "max_tokens": 256}
+{"messages": [{"role": "user", "content": "Give three practical tips for reducing LLM API costs in a production application."}], "max_tokens": 256}
+{"messages": [{"role": "user", "content": "Explain the difference between FP8 and INT4 quantization and how each can affect model quality."}], "max_tokens": 256}
+{"messages": [{"role": "user", "content": "Write a SQL query that finds the top 5 customers by total order value in the last 30 days."}], "max_tokens": 256}
+{"messages": [{"role": "user", "content": "What is prefix caching in LLM inference and what kinds of traffic benefit from it most?"}], "max_tokens": 256}
